@@ -1,0 +1,337 @@
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    float: right;
+    height: 33px;
+    line-height: 33px;
+}
+
+.news_hd .more::after {
+    font-family: "iconfont" !important;
+    content: '\e630';
+    margin-left: 5px;
+}
+
+.news_bd {
+    padding: 5px 17px;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    height: 71px;
+    width: 63px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding-top: 12px;
+
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -17px -14px;
+}
+
+.lifeservice ul li img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: pink;
+    margin-top: 10px;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background: #5c5251 url(../images/recom.png) no-repeat center;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: calc((1200px - 205px) / 4);
+    height: 163px;
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-top: 1px solid #dddddd;
+}
+
+.recom_bd ul li:last-child {
+    border: 0;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: ' ';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 142px;
+    background-color: #dddddd;
+}
+
+.recom_bd ul li h4 {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.recom_bd ul li .a {
+    width: 71px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #e2162f;
+}
+
+.recom_bd ul li .b {
+    width: 58px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #e2162f;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.recom_bd ul li .c {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+
+/* 猜你喜欢模块 */
+.likes {
+    height: 273px;
+    margin-top: 20px;
+}
+
+.likes .likes_hd {
+    height: 40px;
+    line-height: 40px;
+}
+
+.likes .likes_hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.likes .likes_hd a {
+    float: right;
+    color: #484848;
+}
+.likes .likes_hd a::after {
+    font-family: "iconfont" !important;
+    content: '\e62e';
+    margin: 0 20px 0 10px;
+}
+.likes .likes_bd{
+    height: 233px;
+    border: 1px solid #ededed;
+    box-sizing: content-box;
+}
+.likes .likes_bd ul li{
+    float: left;
+    width: 200px;
+    height: 231px;
+    padding-top: 10px;
+}
+.likes .likes_bd ul li .like_bd-img{
+    width: 160px;
+    height: 141px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.likes .likes_bd ul li .like_bd-2{
+    margin-left: 34px;
+    width: 164px;
+    border-right: 1px solid #ededed;
+}
+.likes .likes_bd ul li:last-child .like_bd-2{
+    border-right: 0;
+}
+.likes .likes_bd ul li .like_bd-2 p{
+    height: 20px;
+    line-height: 20px;
+}
+.likes .likes_bd ul li .like_bd-2 i{
+    font-size: 18px;
+    color: #df3033;
+}
+/* 楼梯层模块 */
+.floor .w{
+    margin-top: 30px;
+}
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h4{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list{
+    float: right;
+}
+.tab_list ul li{
+    float: left;
+    line-height: 30px;
+    
+}
+.tab_list ul li a{
+    padding: 0 15px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 84px;
+    height: 33px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    margin-right: 10px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+.col_221 a,
+.col_219 a{
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+.col_219{
+    width: 219px;
+}
+/* type */
+.jiadian-type{
+    height: 65px;
+}
+/* 左侧边栏 */
+.left-sideba{
+   position: fixed;
+   top: 335px;
+   right: 50%;
+   margin-right: 600px;
+   width: 65px;
+}
+.left-sideba ul li{
+    border-bottom: 1px solid #ededed;
+}
+.left-sideba ul li a{
+    display: block;
+    height: 32px;
+    line-height: 31px;
+    text-align: center;
+}
+/* 下面代码是配合锚点链接过渡动画使用 */
+body,
+html{
+    scroll-behavior: smooth;
+}
+.left-sideba ul li:hover{
+    background-color: #c81623;
+}
+.left-sideba ul li:hover a{
+    color: #fff;
+}
+.left-sideba ul li:first-child{
+    border-top: 1px solid #ededed;
+}
+.left-sideba ul li{
+    font-family: "iconfont" !important;
+}
