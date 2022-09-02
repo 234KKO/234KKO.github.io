@@ -1,0 +1,122 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    height: 82px;
+    padding-top: 15px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo h1 a{
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat;
+}
+/* 身 */
+.registerarea{
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+    height: 522px;
+}
+.registerarea_hd{
+    height: 40px;
+    background-color: #ececec;
+    line-height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.registerarea_hd h2{
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.registerarea_hd .registerarea_hd-1{
+    float: right;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.registerarea_hd .registerarea_hd-1 span a{
+    color: #c81623;
+}
+.re_a{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.re_a ul li label{
+    display: inline-block;
+    width: 87px;
+    text-align: right;
+    font-size: 14px;
+}
+.re_a ul li{
+    margin-bottom: 18px;
+}
+.re_a ul li .kko{
+    width: 238px;
+    height: 37px;
+    border: 1px solid #999999;
+}
+.re_a ul li .error,
+.success{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+.re_a ul li .error{
+    background: url(../images/error.png);
+}
+.re_a ul li .success{
+    background: url(../images/success.png);
+}
+.re_a .safe{
+    color: #bebebe;
+    margin: -8px 0 15px 169px;
+}
+.re_a .safe em{
+    color: #fff;
+    padding: 0 10px;
+}
+.re_a .safe .ruo{
+    background-color: #de1111;
+}
+.re_a .safe .zhong{
+    background-color: #40b83f;
+}
+.re_a .safe .qiang{
+    background-color: #f79100;
+}
+.re_a .cbx{
+    margin: 45px 0 0 87px;
+}
+.re_a .cbx_1{
+    vertical-align: middle;
+    margin: -2px 10px 0 0;
+}
+.re_a .cbx a{
+    margin-left: 10px;
+    color: #1ba1e6;
+}
+.re_a .sbt{
+    width: 200px;
+    height: 32px;
+    background-color: #c81623;
+    margin: 45px 0 0 100px;
+    cursor: pointer;
+}
+/* 尾 */
+.footer_hd{
+    text-align: center;
+    padding-top: 25px;
+}
+.footer_hd a{
+    margin: 0 12px;
+}
+.footer_hd p{
+    margin-top: 10px;
+    line-height: 22px;
+}
